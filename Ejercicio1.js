@@ -15,7 +15,7 @@ class Vehiculo {
 //*2.Una clase Coche que herede de Vehiculo y añada la propiedad numeroPuertas*//
 class Coche extends Vehiculo {
   constructor(marca, modelo, año, numeroPuertas) {
-    super(marca, modelo, año);
+    super(marca, modelo, año);/*conecta clase hija con clase padre "super"*/
     this.numeroPuertas = numeroPuertas;
   }
 
